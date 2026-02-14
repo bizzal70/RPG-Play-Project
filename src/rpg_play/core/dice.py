@@ -57,10 +57,10 @@ def parse_dice_notation(notation: str) -> tuple[int, int, int]:
     # Handle modifier
     modifier = 0
     if '+' in notation:
-        notation, mod_str = notation.split('+')
+        notation, mod_str = notation.rsplit('+', 1)
         modifier = int(mod_str)
     elif '-' in notation:
-        notation, mod_str = notation.split('-')
+        notation, mod_str = notation.rsplit('-', 1)
         modifier = -int(mod_str)
     
     # Parse dice

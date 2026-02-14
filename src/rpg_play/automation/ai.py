@@ -9,6 +9,8 @@ from ..combat.combat import CombatEngine
 class AIController:
     """Basic AI controller for automated character decisions."""
     
+    HEALING_THRESHOLD = 0.3  # Heal when HP drops below 30%
+    
     def __init__(self, character: Character, seed: Optional[int] = None):
         """Initialize the AI controller for a character."""
         self.character = character
@@ -46,7 +48,7 @@ class AIController:
             Action description
         """
         # Check if healing is needed
-        if self.character.current_hp < self.character.max_hp * 0.3:
+        if self.character.current_hp < self.character.max_hp * self.HEALING_THRESHOLD:
             if self._attempt_heal():
                 return f"{self.character.name} heals themselves!"
         
