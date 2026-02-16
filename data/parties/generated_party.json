@@ -1,0 +1,81 @@
+{
+  "party": [
+    {
+      "name": "Sylas",
+      "hp": 10,
+      "stats": {
+        "might": 2,
+        "grit": 2,
+        "wit": 4
+      },
+      "tags": [
+        "scout",
+        "rogue"
+      ],
+      "role": "scout",
+      "char_class": "Rogue",
+      "background": "Acolyte",
+      "personality": "ritualistic and disciplined",
+      "goal": "protect innocents trapped in the valley",
+      "flaw": "acts before planning"
+    },
+    {
+      "name": "Mira",
+      "hp": 14,
+      "stats": {
+        "might": 4,
+        "grit": 3,
+        "wit": 1
+      },
+      "tags": [
+        "frontliner",
+        "fighter"
+      ],
+      "role": "frontliner",
+      "char_class": "Fighter",
+      "background": "Soldier",
+      "personality": "curious and analytical",
+      "goal": "protect innocents trapped in the valley",
+      "flaw": "trusts too slowly"
+    },
+    {
+      "name": "Brina",
+      "hp": 10,
+      "stats": {
+        "might": 1,
+        "grit": 2,
+        "wit": 4
+      },
+      "tags": [
+        "face",
+        "bard"
+      ],
+      "role": "face",
+      "char_class": "Bard",
+      "background": "Criminal",
+      "personality": "quietly compassionate",
+      "goal": "redeem a past failure",
+      "flaw": "haunted by nightmares"
+    },
+    {
+      "name": "Joran",
+      "hp": 12,
+      "stats": {
+        "might": 2,
+        "grit": 3,
+        "wit": 3
+      },
+      "tags": [
+        "divine_support",
+        "cleric"
+      ],
+      "role": "divine_support",
+      "char_class": "Cleric",
+      "background": "Soldier",
+      "personality": "optimistic despite danger",
+      "goal": "protect innocents trapped in the valley",
+      "flaw": "acts before planning"
+    }
+  ],
+  "party_size": 4
+}

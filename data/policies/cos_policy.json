@@ -1,0 +1,83 @@
+{
+  "campaign": {
+    "theme": "gothic_horror",
+    "tone": "ominous and suspenseful",
+    "director_guidance": "Create a tense atmosphere filled with dread. Use descriptive language to evoke the dark and eerie setting of Barovia. Emphasize the characters' feelings of isolation and fear.",
+    "actor_guidance": "Portray characters with a sense of urgency and caution. Use hesitant speech patterns and body language that reflect the oppressive environment. Encourage interactions that reveal the characters' vulnerabilities.",
+    "preferred_actions": [
+      "investigate",
+      "negotiate",
+      "rest",
+      "use-equipment"
+    ],
+    "avoid_actions": [
+      "attack",
+      "defend",
+      "exploit-mastery"
+    ]
+  },
+  "default": {
+    "aggression": 0.4,
+    "caution": 0.7,
+    "exploration": 0.8,
+    "priorities": {
+      "investigate": 1.2,
+      "attack": 0.09999999999999998,
+      "defend": 0.7
+    },
+    "tie_breaker": [
+      "investigate",
+      "defend",
+      "use-equipment",
+      "negotiate",
+      "attack",
+      "rest"
+    ]
+  },
+  "characters": {
+    "Kara": {
+      "aggression": 0.4,
+      "caution": 0.6,
+      "exploration": 0.6,
+      "priorities": {
+        "investigate": 0.4,
+        "defend": 0.3
+      },
+      "tie_breaker": [
+        "attack",
+        "investigate",
+        "defend",
+        "negotiate",
+        "rest"
+      ],
+      "notes": {
+        "goal": "",
+        "flaw": "",
+        "background": "",
+        "theme": "gothic_horror"
+      }
+    },
+    "Iven": {
+      "aggression": 0.4,
+      "caution": 0.6,
+      "exploration": 0.6,
+      "priorities": {
+        "investigate": 0.4,
+        "defend": 0.3
+      },
+      "tie_breaker": [
+        "attack",
+        "investigate",
+        "defend",
+        "negotiate",
+        "rest"
+      ],
+      "notes": {
+        "goal": "",
+        "flaw": "",
+        "background": "",
+        "theme": "gothic_horror"
+      }
+    }
+  }
+}

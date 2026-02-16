@@ -1,0 +1,47 @@
+{
+  "setting_name": "Sword Coast - Phandalin Frontier",
+  "chapter": "Chapter 1: Goblin Arrows",
+  "party": [
+    {
+      "name": "Kara",
+      "hp": 10,
+      "stats": {
+        "might": 3,
+        "grit": 2,
+        "wit": 1
+      },
+      "tags": [
+        "vanguard"
+      ]
+    },
+    {
+      "name": "Iven",
+      "hp": 8,
+      "stats": {
+        "might": 1,
+        "grit": 2,
+        "wit": 4
+      },
+      "tags": [
+        "scholar"
+      ]
+    }
+  ],
+  "encounters": [
+    {
+      "id": "triboar-trail-ambush",
+      "title": "Ambush on the Triboar Trail",
+      "threat": 2,
+      "description": "Two dead horses block the trail while hidden goblins wait in the brush for passing travelers."
+    },
+    {
+      "id": "cragmaw-hideout-entrance",
+      "title": "Cragmaw Hideout Mouth",
+      "threat": 2,
+      "description": "A shallow stream leads into a shadowed cave where lookouts and traps guard a cramped goblin den."
+    }
+  ],
+  "flags": {
+    "latest_discovery": ""
+  }
+}

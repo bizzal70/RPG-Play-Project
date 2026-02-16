@@ -1,0 +1,64 @@
+{
+  "campaign_id": "lmop_weekly",
+  "session_count": 2,
+  "summary": {
+    "tpk_rate": 0.0,
+    "clue_discovery_rate": 1.0,
+    "avg_stalled_turns_estimate": 8.5
+  },
+  "trends": {
+    "party_hp": [
+      {
+        "session_id": "session_0001",
+        "avg_final_party_hp": 9.0
+      },
+      {
+        "session_id": "session_0002",
+        "avg_final_party_hp": 9.0
+      }
+    ],
+    "fail_state": [
+      {
+        "session_id": "session_0001",
+        "defeated_members": 0,
+        "party_size": 2,
+        "fail_state_ratio": 0.0,
+        "tpk": false,
+        "stalled_turns_estimate": 8
+      },
+      {
+        "session_id": "session_0002",
+        "defeated_members": 0,
+        "party_size": 2,
+        "fail_state_ratio": 0.0,
+        "tpk": false,
+        "stalled_turns_estimate": 9
+      }
+    ],
+    "recurring_risk_flags": []
+  },
+  "panels": {
+    "party": {
+      "latest_session_id": "session_0002",
+      "members": [
+        {
+          "name": "Kara",
+          "level": null,
+          "class": "unknown-class",
+          "role": "adventurer",
+          "hp": 10,
+          "status": "active"
+        },
+        {
+          "name": "Iven",
+          "level": null,
+          "class": "unknown-class",
+          "role": "adventurer",
+          "hp": 8,
+          "status": "active"
+        }
+      ]
+    }
+  },
+  "manifest_path": "data/ledger/lmop_weekly/manifest.json"
+}

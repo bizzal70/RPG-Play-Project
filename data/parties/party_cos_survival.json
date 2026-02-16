@@ -1,0 +1,85 @@
+{
+  "party": [
+    {
+      "name": "Sylas",
+      "hp": 14,
+      "stats": {
+        "might": 2,
+        "grit": 3,
+        "wit": 3
+      },
+      "tags": [
+        "divine_support",
+        "cleric",
+        "preset:cos-survival"
+      ],
+      "role": "divine_support",
+      "char_class": "Cleric",
+      "background": "Acolyte",
+      "personality": "grim but loyal",
+      "goal": "uncover the true history of Castle Ravenloft",
+      "flaw": "trusts too slowly"
+    },
+    {
+      "name": "Iris",
+      "hp": 16,
+      "stats": {
+        "might": 4,
+        "grit": 3,
+        "wit": 1
+      },
+      "tags": [
+        "frontliner",
+        "fighter",
+        "preset:cos-survival"
+      ],
+      "role": "frontliner",
+      "char_class": "Fighter",
+      "background": "Criminal",
+      "personality": "ritualistic and disciplined",
+      "goal": "protect innocents trapped in the valley",
+      "flaw": "acts before planning"
+    },
+    {
+      "name": "Joran",
+      "hp": 13,
+      "stats": {
+        "might": 3,
+        "grit": 2,
+        "wit": 3
+      },
+      "tags": [
+        "striker",
+        "ranger",
+        "preset:cos-survival"
+      ],
+      "role": "striker",
+      "char_class": "Ranger",
+      "background": "Sage",
+      "personality": "ritualistic and disciplined",
+      "goal": "recover a lost family relic",
+      "flaw": "too protective of allies"
+    },
+    {
+      "name": "Galen",
+      "hp": 14,
+      "stats": {
+        "might": 2,
+        "grit": 3,
+        "wit": 3
+      },
+      "tags": [
+        "divine_support",
+        "cleric",
+        "preset:cos-survival"
+      ],
+      "role": "divine_support",
+      "char_class": "Cleric",
+      "background": "Criminal",
+      "personality": "sardonic and pragmatic",
+      "goal": "redeem a past failure",
+      "flaw": "too protective of allies"
+    }
+  ],
+  "party_size": 4
+}

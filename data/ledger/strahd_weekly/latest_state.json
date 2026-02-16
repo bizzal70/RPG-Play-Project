@@ -1,0 +1,161 @@
+{
+  "setting_name": "Barovia",
+  "chapter": "Chapter 1: Through the Mists",
+  "turn_index": 8,
+  "party": [
+    {
+      "name": "Sylas",
+      "hp": 14,
+      "stats": {
+        "might": 2,
+        "grit": 3,
+        "wit": 3
+      },
+      "tags": [
+        "divine_support",
+        "cleric",
+        "preset:cos-survival"
+      ],
+      "role": "divine_support",
+      "char_class": "Cleric",
+      "background": "Acolyte",
+      "personality": "grim but loyal",
+      "goal": "uncover the true history of Castle Ravenloft",
+      "flaw": "trusts too slowly"
+    },
+    {
+      "name": "Iris",
+      "hp": 16,
+      "stats": {
+        "might": 4,
+        "grit": 3,
+        "wit": 1
+      },
+      "tags": [
+        "frontliner",
+        "fighter",
+        "preset:cos-survival"
+      ],
+      "role": "frontliner",
+      "char_class": "Fighter",
+      "background": "Criminal",
+      "personality": "ritualistic and disciplined",
+      "goal": "protect innocents trapped in the valley",
+      "flaw": "acts before planning"
+    },
+    {
+      "name": "Joran",
+      "hp": 13,
+      "stats": {
+        "might": 3,
+        "grit": 2,
+        "wit": 3
+      },
+      "tags": [
+        "striker",
+        "ranger",
+        "preset:cos-survival"
+      ],
+      "role": "striker",
+      "char_class": "Ranger",
+      "background": "Sage",
+      "personality": "ritualistic and disciplined",
+      "goal": "recover a lost family relic",
+      "flaw": "too protective of allies"
+    },
+    {
+      "name": "Galen",
+      "hp": 14,
+      "stats": {
+        "might": 2,
+        "grit": 3,
+        "wit": 3
+      },
+      "tags": [
+        "divine_support",
+        "cleric",
+        "preset:cos-survival"
+      ],
+      "role": "divine_support",
+      "char_class": "Cleric",
+      "background": "Criminal",
+      "personality": "sardonic and pragmatic",
+      "goal": "redeem a past failure",
+      "flaw": "too protective of allies"
+    }
+  ],
+  "encounters": [
+    {
+      "id": "mist-choked-road",
+      "title": "Mist-Choked Old Road",
+      "threat": 2,
+      "description": "A choking bank of unnatural fog swallows the road while distant wolves howl from unseen tree lines."
+    },
+    {
+      "id": "abandoned-durst-manor",
+      "title": "Abandoned Manor on the Hill",
+      "threat": 1,
+      "description": "A creaking, lightless manor stands over the village outskirts, its doors slightly ajar as if expecting guests."
+    }
+  ],
+  "flags": {
+    "latest_discovery": "clue_discovered",
+    "srd_summary": {
+      "source_path": "data/srd/srd_5e_2024_merged.json",
+      "version": "2024",
+      "categories": 14,
+      "conditions": 15,
+      "equipment": 179,
+      "backgrounds": 4,
+      "weapon_properties": 10,
+      "mastery_properties": 8,
+      "damage_types": 13
+    },
+    "source_chunks_summary": {
+      "source_chunks_json": "data/sources/curse_of_strahd_chunks.json",
+      "loaded_chunks": 12
+    },
+    "ai_mode": {
+      "policy_actors": true,
+      "ai_actors": true,
+      "ai_director": true,
+      "ai_policy_json": "data/policies/cos_policy.json",
+      "ai_model": "gpt-4o-mini",
+      "ai_api_key_present": true
+    }
+  },
+  "log": [
+    "Turn 1: Sylas finds nothing useful (roll=8)",
+    "Turn 1: Iris uncovers a clue (roll=12)",
+    "Turn 1: Joran uncovers a clue (roll=13)",
+    "Turn 1: Galen finds nothing useful (roll=5)",
+    "Turn 2: Sylas finds nothing useful (roll=7)",
+    "Turn 2: Iris finds nothing useful (roll=2)",
+    "Turn 2: Joran finds nothing useful (roll=3)",
+    "Turn 2: Galen finds nothing useful (roll=5)",
+    "Turn 3: Sylas finds nothing useful (roll=8)",
+    "Turn 3: Iris uncovers a clue (roll=17)",
+    "Turn 3: Joran finds nothing useful (roll=7)",
+    "Turn 3: Galen uncovers a clue (roll=13)",
+    "Turn 4: Sylas finds nothing useful (roll=1)",
+    "Turn 4: Iris uncovers a clue (roll=15)",
+    "Turn 4: Joran uncovers a clue (roll=16)",
+    "Turn 4: Galen uncovers a clue (roll=15)",
+    "Turn 5: Sylas uncovers a clue (roll=13)",
+    "Turn 5: Iris uncovers a clue (roll=16)",
+    "Turn 5: Joran uncovers a clue (roll=19)",
+    "Turn 5: Galen finds nothing useful (roll=7)",
+    "Turn 6: Sylas uncovers a clue (roll=13)",
+    "Turn 6: Iris finds nothing useful (roll=3)",
+    "Turn 6: Joran uncovers a clue (roll=16)",
+    "Turn 6: Galen finds nothing useful (roll=8)",
+    "Turn 7: Sylas finds nothing useful (roll=1)",
+    "Turn 7: Iris finds nothing useful (roll=9)",
+    "Turn 7: Joran uncovers a clue (roll=17)",
+    "Turn 7: Galen uncovers a clue (roll=14)",
+    "Turn 8: Sylas uncovers a clue (roll=16)",
+    "Turn 8: Iris uncovers a clue (roll=13)",
+    "Turn 8: Joran finds nothing useful (roll=4)",
+    "Turn 8: Galen finds nothing useful (roll=9)"
+  ]
+}

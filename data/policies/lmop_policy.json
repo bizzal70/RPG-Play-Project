@@ -1,0 +1,76 @@
+{
+  "campaign": {
+    "theme": "heroic_fantasy",
+    "tone": "adventurous and engaging, with a sense of urgency and danger",
+    "director_guidance": "Encourage players to embrace their heroic roles, emphasizing teamwork and moral choices. Create tension through encounters with goblins and the environment. Use vivid descriptions to immerse players in the setting.",
+    "actor_guidance": "Portray characters with a sense of bravery and determination. Highlight their motivations and backgrounds to deepen engagement. React dynamically to player choices, fostering a sense of agency.",
+    "preferred_actions": [
+      "attack",
+      "defend",
+      "investigate",
+      "negotiate"
+    ],
+    "avoid_actions": [
+      "rest",
+      "use-equipment",
+      "exploit-mastery"
+    ]
+  },
+  "default": {
+    "aggression": 0.5,
+    "caution": 0.5,
+    "exploration": 0.6,
+    "priorities": {
+      "investigate": 0.5,
+      "attack": 0.3,
+      "defend": 0.2
+    },
+    "tie_breaker": [
+      "investigate",
+      "attack",
+      "defend",
+      "negotiate",
+      "rest"
+    ]
+  },
+  "characters": {
+    "Kara": {
+      "aggression": 0.5,
+      "caution": 0.5,
+      "exploration": 0.5,
+      "priorities": {},
+      "tie_breaker": [
+        "attack",
+        "investigate",
+        "defend",
+        "negotiate",
+        "rest"
+      ],
+      "notes": {
+        "goal": "",
+        "flaw": "",
+        "background": "",
+        "theme": "heroic_fantasy"
+      }
+    },
+    "Iven": {
+      "aggression": 0.5,
+      "caution": 0.5,
+      "exploration": 0.5,
+      "priorities": {},
+      "tie_breaker": [
+        "attack",
+        "investigate",
+        "defend",
+        "negotiate",
+        "rest"
+      ],
+      "notes": {
+        "goal": "",
+        "flaw": "",
+        "background": "",
+        "theme": "heroic_fantasy"
+      }
+    }
+  }
+}

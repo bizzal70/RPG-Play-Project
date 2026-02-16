@@ -1,0 +1,28 @@
+{
+  "none": {},
+  "srd": {
+    "campaign_json": "data/campaign_template.json",
+    "use_srd": true,
+    "srd_json": "data/srd/srd_5e_2024_merged.json",
+    "use_source_chunks": false
+  },
+  "cos": {
+    "campaign_json": "data/campaign_cos.json",
+    "campaign_id": "strahd_weekly",
+    "party_json": "data/parties/party_cos_survival.json",
+    "ai_policy_json": "data/policies/cos_policy.json",
+    "use_srd": true,
+    "srd_json": "data/srd/srd_5e_2024_merged.json",
+    "use_source_chunks": false,
+    "source_chunks_json": "data/sources/curse_of_strahd_chunks.json"
+  },
+  "lmop": {
+    "campaign_json": "data/campaign_lmop.json",
+    "campaign_id": "lmop_weekly",
+    "use_srd": true,
+    "srd_json": "data/srd/srd_5e_2024_merged.json",
+    "use_source_chunks": true,
+    "source_chunks_json": "data/sources/lost_mine_of_phandelver_chunks.json",
+    "ai_policy_json": "data/policies/lmop_policy.json"
+  }
+}

@@ -1,0 +1,386 @@
+{
+  "session_id": "session_0001",
+  "created_at": "2026-02-15T23:58:53.749928+00:00",
+  "seed": 7,
+  "turns": 8,
+  "source_profile": "lmop",
+  "result": {
+    "setting_name": "Sword Coast - Phandalin Frontier",
+    "total_turns": 8,
+    "final_state": {
+      "setting_name": "Sword Coast - Phandalin Frontier",
+      "chapter": "Chapter 1: Goblin Arrows",
+      "turn_index": 8,
+      "party": [
+        {
+          "name": "Kara",
+          "hp": 10,
+          "stats": {
+            "might": 3,
+            "grit": 2,
+            "wit": 1
+          },
+          "tags": [
+            "vanguard"
+          ],
+          "role": "",
+          "char_class": "",
+          "background": "",
+          "personality": "",
+          "goal": "",
+          "flaw": ""
+        },
+        {
+          "name": "Iven",
+          "hp": 8,
+          "stats": {
+            "might": 1,
+            "grit": 2,
+            "wit": 4
+          },
+          "tags": [
+            "scholar"
+          ],
+          "role": "",
+          "char_class": "",
+          "background": "",
+          "personality": "",
+          "goal": "",
+          "flaw": ""
+        }
+      ],
+      "encounters": [
+        {
+          "id": "triboar-trail-ambush",
+          "title": "Ambush on the Triboar Trail",
+          "threat": 2,
+          "description": "Two dead horses block the trail while hidden goblins wait in the brush for passing travelers."
+        },
+        {
+          "id": "cragmaw-hideout-entrance",
+          "title": "Cragmaw Hideout Mouth",
+          "threat": 2,
+          "description": "A shallow stream leads into a shadowed cave where lookouts and traps guard a cramped goblin den."
+        }
+      ],
+      "flags": {
+        "latest_discovery": "clue_discovered",
+        "srd_summary": {
+          "source_path": "data/srd/srd_5e_2024_merged.json",
+          "version": "2024",
+          "categories": 14,
+          "conditions": 15,
+          "equipment": 179,
+          "backgrounds": 4,
+          "weapon_properties": 10,
+          "mastery_properties": 8,
+          "damage_types": 13
+        },
+        "source_chunks_summary": {
+          "source_chunks_json": "data/sources/lost_mine_of_phandelver_chunks.json",
+          "loaded_chunks": 242
+        },
+        "ai_mode": {
+          "policy_actors": true,
+          "ai_actors": true,
+          "ai_director": true,
+          "ai_policy_json": "data/policies/lmop_policy.json",
+          "ai_model": "gpt-4o-mini",
+          "ai_api_key_present": true
+        }
+      },
+      "log": [
+        "Turn 1: Kara uncovers a clue (roll=11)",
+        "Turn 1: Iven finds nothing useful (roll=5)",
+        "Turn 2: Kara uncovers a clue (roll=13)",
+        "Turn 2: Iven finds nothing useful (roll=2)",
+        "Turn 3: Kara finds nothing useful (roll=3)",
+        "Turn 3: Iven uncovers a clue (roll=18)",
+        "Turn 4: Kara finds nothing useful (roll=4)",
+        "Turn 4: Iven uncovers a clue (roll=12)",
+        "Turn 5: Kara attacks and lands a hit (roll=19)",
+        "Turn 5: Iven finds nothing useful (roll=2)",
+        "Turn 6: Kara uncovers a clue (roll=17)",
+        "Turn 6: Iven finds nothing useful (roll=7)",
+        "Turn 7: Kara finds nothing useful (roll=2)",
+        "Turn 7: Iven finds nothing useful (roll=3)",
+        "Turn 8: Kara uncovers a clue (roll=14)",
+        "Turn 8: Iven uncovers a clue (roll=14)"
+      ]
+    },
+    "turns": [
+      {
+        "turn_index": 1,
+        "scene_prompt": "As you make your way along the Triboar Trail, the sun dips below the horizon, casting eerie shadows. Two lifeless horses lie across the path, a grim warning of danger ahead. The rustle of leaves and muffled whispers hint at hidden goblins lurking in the brush, waiting to ambush unsuspecting travelers. Will you act quickly to protect each other and uncover the threat?",
+        "intents": [
+          {
+            "actor_name": "Kara",
+            "action": "investigate",
+            "target": null
+          },
+          {
+            "actor_name": "Iven",
+            "action": "investigate",
+            "target": null
+          }
+        ],
+        "outcomes": [
+          {
+            "actor_name": "Kara",
+            "success": true,
+            "summary": "Kara uncovers a clue (roll=11)",
+            "hp_delta": {},
+            "flag_updates": {
+              "latest_discovery": "clue_discovered"
+            }
+          },
+          {
+            "actor_name": "Iven",
+            "success": false,
+            "summary": "Iven finds nothing useful (roll=5)",
+            "hp_delta": {},
+            "flag_updates": {}
+          }
+        ]
+      },
+      {
+        "turn_index": 2,
+        "scene_prompt": "As you approach the mouth of the Cragmaw Hideout, the air is thick with tension. A shallow stream trickles into the shadowy cave, where goblin lookouts peer from behind crude barricades. The faint sound of rustling and muffled voices echoes within, hinting at the threat that lies ahead. Your hearts race as you prepare to face whatever dangers await in the darkness.",
+        "intents": [
+          {
+            "actor_name": "Kara",
+            "action": "investigate",
+            "target": null
+          },
+          {
+            "actor_name": "Iven",
+            "action": "investigate",
+            "target": null
+          }
+        ],
+        "outcomes": [
+          {
+            "actor_name": "Kara",
+            "success": true,
+            "summary": "Kara uncovers a clue (roll=13)",
+            "hp_delta": {},
+            "flag_updates": {
+              "latest_discovery": "clue_discovered"
+            }
+          },
+          {
+            "actor_name": "Iven",
+            "success": false,
+            "summary": "Iven finds nothing useful (roll=2)",
+            "hp_delta": {},
+            "flag_updates": {}
+          }
+        ]
+      },
+      {
+        "turn_index": 3,
+        "scene_prompt": "As the sun begins to set, casting eerie shadows on the Triboar Trail, two dead horses lie ominously across your path. The air is thick with tension, and the rustling of leaves hints at hidden goblins lurking nearby, waiting for the perfect moment to strike. The fate of your journey hangs in the balance. Will you face the threat head-on or seek another way?",
+        "intents": [
+          {
+            "actor_name": "Kara",
+            "action": "investigate",
+            "target": "dead horses"
+          },
+          {
+            "actor_name": "Iven",
+            "action": "investigate",
+            "target": null
+          }
+        ],
+        "outcomes": [
+          {
+            "actor_name": "Kara",
+            "success": false,
+            "summary": "Kara finds nothing useful (roll=3)",
+            "hp_delta": {},
+            "flag_updates": {}
+          },
+          {
+            "actor_name": "Iven",
+            "success": true,
+            "summary": "Iven uncovers a clue (roll=18)",
+            "hp_delta": {},
+            "flag_updates": {
+              "latest_discovery": "clue_discovered"
+            }
+          }
+        ]
+      },
+      {
+        "turn_index": 4,
+        "scene_prompt": "As you approach the Cragmaw Hideout, the air thickens with tension. Shadows flicker in the cave entrance, where goblin sentries peer out, their eyes glinting with malice. A shallow stream gurgles beside you, but the path is fraught with traps. The faint sound of goblin chatter echoes from within, urging you to decide your next move carefully. Will you confront the threat head-on or devise a clever strategy?",
+        "intents": [
+          {
+            "actor_name": "Kara",
+            "action": "investigate",
+            "target": null
+          },
+          {
+            "actor_name": "Iven",
+            "action": "investigate",
+            "target": null
+          }
+        ],
+        "outcomes": [
+          {
+            "actor_name": "Kara",
+            "success": false,
+            "summary": "Kara finds nothing useful (roll=4)",
+            "hp_delta": {},
+            "flag_updates": {}
+          },
+          {
+            "actor_name": "Iven",
+            "success": true,
+            "summary": "Iven uncovers a clue (roll=12)",
+            "hp_delta": {},
+            "flag_updates": {
+              "latest_discovery": "clue_discovered"
+            }
+          }
+        ]
+      },
+      {
+        "turn_index": 5,
+        "scene_prompt": "As the sun sets behind the jagged hills of the Phandalin Frontier, a chilling breeze sweeps through the Triboar Trail. Two lifeless horses lie sprawled across the path, their eyes wide with fear. From the shadows, the eyes of goblins glint with malice, ready to spring into action. The air is thick with tension, and the scent of damp earth fills your lungs. Will you confront the lurking threat or seek another way?",
+        "intents": [
+          {
+            "actor_name": "Kara",
+            "action": "attack",
+            "target": "goblins"
+          },
+          {
+            "actor_name": "Iven",
+            "action": "investigate",
+            "target": null
+          }
+        ],
+        "outcomes": [
+          {
+            "actor_name": "Kara",
+            "success": true,
+            "summary": "Kara attacks and lands a hit (roll=19)",
+            "hp_delta": {
+              "Kara": 0
+            },
+            "flag_updates": {}
+          },
+          {
+            "actor_name": "Iven",
+            "success": false,
+            "summary": "Iven finds nothing useful (roll=2)",
+            "hp_delta": {},
+            "flag_updates": {}
+          }
+        ]
+      },
+      {
+        "turn_index": 6,
+        "scene_prompt": "You stand at the mouth of Cragmaw Hideout, the air thick with the scent of damp earth and the faint sound of goblin chatter echoing from within. A shallow stream flows past, leading into the shadowy cave, where traps and vigilant lookouts await. The tension is palpable as you prepare to confront the goblins lurking in the dark, knowing that teamwork and courage will be your greatest allies.",
+        "intents": [
+          {
+            "actor_name": "Kara",
+            "action": "investigate",
+            "target": null
+          },
+          {
+            "actor_name": "Iven",
+            "action": "investigate",
+            "target": null
+          }
+        ],
+        "outcomes": [
+          {
+            "actor_name": "Kara",
+            "success": true,
+            "summary": "Kara uncovers a clue (roll=17)",
+            "hp_delta": {},
+            "flag_updates": {
+              "latest_discovery": "clue_discovered"
+            }
+          },
+          {
+            "actor_name": "Iven",
+            "success": false,
+            "summary": "Iven finds nothing useful (roll=7)",
+            "hp_delta": {},
+            "flag_updates": {}
+          }
+        ]
+      },
+      {
+        "turn_index": 7,
+        "scene_prompt": "As you tread cautiously along the muddy path of the Triboar Trail, the ominous silence is broken only by the distant rustle of leaves. Two lifeless horses lie sprawled across the trail, their eyes wide in terror. You sense danger lurking in the underbrush, the sharp glint of goblin eyes watching your every move. The air is thick with tension, and the scent of damp earth fills your lungs. Will you stand and fight, or seek a way to outsmart your foes?",
+        "intents": [
+          {
+            "actor_name": "Kara",
+            "action": "investigate",
+            "target": null
+          },
+          {
+            "actor_name": "Iven",
+            "action": "investigate",
+            "target": null
+          }
+        ],
+        "outcomes": [
+          {
+            "actor_name": "Kara",
+            "success": false,
+            "summary": "Kara finds nothing useful (roll=2)",
+            "hp_delta": {},
+            "flag_updates": {}
+          },
+          {
+            "actor_name": "Iven",
+            "success": false,
+            "summary": "Iven finds nothing useful (roll=3)",
+            "hp_delta": {},
+            "flag_updates": {}
+          }
+        ]
+      },
+      {
+        "turn_index": 8,
+        "scene_prompt": "As you stand at the mouth of the Cragmaw Hideout, the stench of damp earth and goblin musk fills the air. The sound of trickling water from the shallow stream nearby mingles with the distant chattering of goblins within the shadows of the cave. You can see crude traps set along the path and the flicker of torches illuminating the darkened entrance. The tension is palpable as you prepare to enter this dangerous den, knowing that teamwork and moral choices will be your greatest allies.",
+        "intents": [
+          {
+            "actor_name": "Kara",
+            "action": "investigate",
+            "target": null
+          },
+          {
+            "actor_name": "Iven",
+            "action": "investigate",
+            "target": null
+          }
+        ],
+        "outcomes": [
+          {
+            "actor_name": "Kara",
+            "success": true,
+            "summary": "Kara uncovers a clue (roll=14)",
+            "hp_delta": {},
+            "flag_updates": {
+              "latest_discovery": "clue_discovered"
+            }
+          },
+          {
+            "actor_name": "Iven",
+            "success": true,
+            "summary": "Iven uncovers a clue (roll=14)",
+            "hp_delta": {},
+            "flag_updates": {
+              "latest_discovery": "clue_discovered"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

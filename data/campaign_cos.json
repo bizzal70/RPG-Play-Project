@@ -1,0 +1,47 @@
+{
+  "setting_name": "Barovia",
+  "chapter": "Chapter 1: Through the Mists",
+  "party": [
+    {
+      "name": "Kara",
+      "hp": 10,
+      "stats": {
+        "might": 3,
+        "grit": 2,
+        "wit": 1
+      },
+      "tags": [
+        "vanguard"
+      ]
+    },
+    {
+      "name": "Iven",
+      "hp": 8,
+      "stats": {
+        "might": 1,
+        "grit": 2,
+        "wit": 4
+      },
+      "tags": [
+        "scholar"
+      ]
+    }
+  ],
+  "encounters": [
+    {
+      "id": "mist-choked-road",
+      "title": "Mist-Choked Old Road",
+      "threat": 2,
+      "description": "A choking bank of unnatural fog swallows the road while distant wolves howl from unseen tree lines."
+    },
+    {
+      "id": "abandoned-durst-manor",
+      "title": "Abandoned Manor on the Hill",
+      "threat": 1,
+      "description": "A creaking, lightless manor stands over the village outskirts, its doors slightly ajar as if expecting guests."
+    }
+  ],
+  "flags": {
+    "latest_discovery": ""
+  }
+}

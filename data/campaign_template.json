@@ -1,0 +1,43 @@
+{
+  "setting_name": "Frontier of Emberfall",
+  "chapter": "Chapter 1: Frontier Road",
+  "party": [
+    {
+      "name": "Kara",
+      "hp": 10,
+      "stats": {
+        "might": 3,
+        "grit": 2,
+        "wit": 1
+      },
+      "tags": ["vanguard"]
+    },
+    {
+      "name": "Iven",
+      "hp": 8,
+      "stats": {
+        "might": 1,
+        "grit": 2,
+        "wit": 4
+      },
+      "tags": ["scholar"]
+    }
+  ],
+  "encounters": [
+    {
+      "id": "roadside-ambush",
+      "title": "Roadside Ambush",
+      "threat": 2,
+      "description": "Bandits emerge from blackened pines near an old milestone."
+    },
+    {
+      "id": "collapsed-bridge",
+      "title": "Collapsed Bridge",
+      "threat": 1,
+      "description": "A washed-out crossing blocks progress as storm clouds gather."
+    }
+  ],
+  "flags": {
+    "latest_discovery": ""
+  }
+}

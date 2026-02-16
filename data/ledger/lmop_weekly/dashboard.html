@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Campaign Dashboard - lmop_weekly</title>
+  <style>
+    body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 24px; background: #0f1115; color: #e6e9ef; }
+    h1, h2 { margin: 0 0 12px; }
+    .muted { color: #9aa3b2; }
+    .grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); margin-bottom: 24px; }
+    .card { background: #171a21; border: 1px solid #242a36; border-radius: 10px; padding: 14px; }
+    .metric { font-size: 28px; font-weight: 700; }
+    table { width: 100%; border-collapse: collapse; margin-top: 8px; }
+    th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid #262c38; font-size: 14px; }
+    th { color: #9aa3b2; font-weight: 600; }
+    .bar-wrap { background: #202533; border-radius: 6px; height: 8px; width: 100%; }
+    .bar { background: #5c8dff; height: 8px; border-radius: 6px; }
+    .section { margin-bottom: 24px; }
+    .pill { display: inline-block; padding: 2px 8px; border-radius: 999px; background: #202533; color: #c9d3e5; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <h1>Campaign Dashboard <span class="pill">lmop_weekly</span></h1>
+  <p class="muted">Session count: 2</p>
+
+  <div class="grid"><div class='card'><div class='muted'>TPK Rate</div><div class='metric'>0.0</div></div><div class='card'><div class='muted'>Clue Discovery Rate</div><div class='metric'>1.0</div></div><div class='card'><div class='muted'>Avg Stalled Turns</div><div class='metric'>8.5</div></div></div>
+
+  <div class="section">
+    <h2>Party HP Trend</h2>
+    <table><thead><tr><th>Session</th><th>Avg HP</th><th>Relative</th></tr></thead><tbody><tr><td>session_0001</td><td>9.00</td><td><div class='bar-wrap'><div class='bar' style='width:100%'></div></div></td></tr><tr><td>session_0002</td><td>9.00</td><td><div class='bar-wrap'><div class='bar' style='width:100%'></div></div></td></tr></tbody></table>
+  </div>
+
+  <div class="section">
+    <h2>Fail-State Trend</h2>
+    <table><thead><tr><th>Session</th><th>Defeated</th><th>Fail Ratio</th><th>TPK</th><th>Stalled Est.</th></tr></thead><tbody><tr><td>session_0001</td><td>0/2</td><td>0.000</td><td>No</td><td>8</td></tr><tr><td>session_0002</td><td>0/2</td><td>0.000</td><td>No</td><td>9</td></tr></tbody></table>
+  </div>
+
+  <div class="section">
+    <h2>Recurring Risk Flags</h2>
+    <p class='muted'>No recurring risk flags yet.</p>
+  </div>
+</body>
+</html>

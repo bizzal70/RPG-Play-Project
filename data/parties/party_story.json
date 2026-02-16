@@ -1,0 +1,85 @@
+{
+  "party": [
+    {
+      "name": "Mira",
+      "hp": 10,
+      "stats": {
+        "might": 1,
+        "grit": 2,
+        "wit": 4
+      },
+      "tags": [
+        "face",
+        "bard",
+        "preset:story-heavy"
+      ],
+      "role": "face",
+      "char_class": "Bard",
+      "background": "Soldier",
+      "personality": "quietly compassionate",
+      "goal": "protect innocents trapped in the valley",
+      "flaw": "haunted by nightmares"
+    },
+    {
+      "name": "Cassian",
+      "hp": 11,
+      "stats": {
+        "might": 3,
+        "grit": 2,
+        "wit": 3
+      },
+      "tags": [
+        "striker",
+        "ranger",
+        "preset:story-heavy"
+      ],
+      "role": "striker",
+      "char_class": "Ranger",
+      "background": "Soldier",
+      "personality": "quietly compassionate",
+      "goal": "protect innocents trapped in the valley",
+      "flaw": "overconfident in battle"
+    },
+    {
+      "name": "Ember",
+      "hp": 12,
+      "stats": {
+        "might": 2,
+        "grit": 3,
+        "wit": 3
+      },
+      "tags": [
+        "divine_support",
+        "cleric",
+        "preset:story-heavy"
+      ],
+      "role": "divine_support",
+      "char_class": "Cleric",
+      "background": "Criminal",
+      "personality": "quietly compassionate",
+      "goal": "break Strahd's hold over Barovia",
+      "flaw": "overconfident in battle"
+    },
+    {
+      "name": "Kael",
+      "hp": 10,
+      "stats": {
+        "might": 2,
+        "grit": 2,
+        "wit": 4
+      },
+      "tags": [
+        "scout",
+        "rogue",
+        "preset:story-heavy"
+      ],
+      "role": "scout",
+      "char_class": "Rogue",
+      "background": "Soldier",
+      "personality": "curious and analytical",
+      "goal": "redeem a past failure",
+      "flaw": "too protective of allies"
+    }
+  ],
+  "party_size": 4
+}

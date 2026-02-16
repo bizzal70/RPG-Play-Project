@@ -1,0 +1,101 @@
+{
+  "setting_name": "Sword Coast - Phandalin Frontier",
+  "chapter": "Chapter 1: Goblin Arrows",
+  "turn_index": 8,
+  "party": [
+    {
+      "name": "Kara",
+      "hp": 10,
+      "stats": {
+        "might": 3,
+        "grit": 2,
+        "wit": 1
+      },
+      "tags": [
+        "vanguard"
+      ],
+      "role": "",
+      "char_class": "",
+      "background": "",
+      "personality": "",
+      "goal": "",
+      "flaw": ""
+    },
+    {
+      "name": "Iven",
+      "hp": 8,
+      "stats": {
+        "might": 1,
+        "grit": 2,
+        "wit": 4
+      },
+      "tags": [
+        "scholar"
+      ],
+      "role": "",
+      "char_class": "",
+      "background": "",
+      "personality": "",
+      "goal": "",
+      "flaw": ""
+    }
+  ],
+  "encounters": [
+    {
+      "id": "triboar-trail-ambush",
+      "title": "Ambush on the Triboar Trail",
+      "threat": 2,
+      "description": "Two dead horses block the trail while hidden goblins wait in the brush for passing travelers."
+    },
+    {
+      "id": "cragmaw-hideout-entrance",
+      "title": "Cragmaw Hideout Mouth",
+      "threat": 2,
+      "description": "A shallow stream leads into a shadowed cave where lookouts and traps guard a cramped goblin den."
+    }
+  ],
+  "flags": {
+    "latest_discovery": "clue_discovered",
+    "srd_summary": {
+      "source_path": "data/srd/srd_5e_2024_merged.json",
+      "version": "2024",
+      "categories": 14,
+      "conditions": 15,
+      "equipment": 179,
+      "backgrounds": 4,
+      "weapon_properties": 10,
+      "mastery_properties": 8,
+      "damage_types": 13
+    },
+    "source_chunks_summary": {
+      "source_chunks_json": "data/sources/lost_mine_of_phandelver_chunks.json",
+      "loaded_chunks": 242
+    },
+    "ai_mode": {
+      "policy_actors": true,
+      "ai_actors": true,
+      "ai_director": true,
+      "ai_policy_json": "data/policies/lmop_policy.json",
+      "ai_model": "gpt-4o-mini",
+      "ai_api_key_present": true
+    }
+  },
+  "log": [
+    "Turn 1: Kara finds nothing useful (roll=8)",
+    "Turn 1: Iven uncovers a clue (roll=12)",
+    "Turn 2: Kara uncovers a clue (roll=13)",
+    "Turn 2: Iven finds nothing useful (roll=5)",
+    "Turn 3: Kara finds nothing useful (roll=7)",
+    "Turn 3: Iven finds nothing useful (roll=2)",
+    "Turn 4: Kara finds nothing useful (roll=3)",
+    "Turn 4: Iven finds nothing useful (roll=5)",
+    "Turn 5: Kara finds nothing useful (roll=8)",
+    "Turn 5: Iven uncovers a clue (roll=17)",
+    "Turn 6: Kara finds nothing useful (roll=7)",
+    "Turn 6: Iven uncovers a clue (roll=13)",
+    "Turn 7: Kara finds nothing useful (roll=1)",
+    "Turn 7: Iven uncovers a clue (roll=15)",
+    "Turn 8: Kara uncovers a clue (roll=16)",
+    "Turn 8: Iven uncovers a clue (roll=15)"
+  ]
+}

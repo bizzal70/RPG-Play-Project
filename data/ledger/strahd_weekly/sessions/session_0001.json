@@ -1,0 +1,652 @@
+{
+  "session_id": "session_0001",
+  "created_at": "2026-02-15T23:35:19.525529+00:00",
+  "seed": 7,
+  "turns": 8,
+  "source_profile": "cos",
+  "result": {
+    "setting_name": "Barovia",
+    "total_turns": 8,
+    "final_state": {
+      "setting_name": "Barovia",
+      "chapter": "Chapter 1: Through the Mists",
+      "turn_index": 8,
+      "party": [
+        {
+          "name": "Sylas",
+          "hp": 14,
+          "stats": {
+            "might": 2,
+            "grit": 3,
+            "wit": 3
+          },
+          "tags": [
+            "divine_support",
+            "cleric",
+            "preset:cos-survival"
+          ],
+          "role": "divine_support",
+          "char_class": "Cleric",
+          "background": "Acolyte",
+          "personality": "grim but loyal",
+          "goal": "uncover the true history of Castle Ravenloft",
+          "flaw": "trusts too slowly"
+        },
+        {
+          "name": "Iris",
+          "hp": 16,
+          "stats": {
+            "might": 4,
+            "grit": 3,
+            "wit": 1
+          },
+          "tags": [
+            "frontliner",
+            "fighter",
+            "preset:cos-survival"
+          ],
+          "role": "frontliner",
+          "char_class": "Fighter",
+          "background": "Criminal",
+          "personality": "ritualistic and disciplined",
+          "goal": "protect innocents trapped in the valley",
+          "flaw": "acts before planning"
+        },
+        {
+          "name": "Joran",
+          "hp": 13,
+          "stats": {
+            "might": 3,
+            "grit": 2,
+            "wit": 3
+          },
+          "tags": [
+            "striker",
+            "ranger",
+            "preset:cos-survival"
+          ],
+          "role": "striker",
+          "char_class": "Ranger",
+          "background": "Sage",
+          "personality": "ritualistic and disciplined",
+          "goal": "recover a lost family relic",
+          "flaw": "too protective of allies"
+        },
+        {
+          "name": "Galen",
+          "hp": 14,
+          "stats": {
+            "might": 2,
+            "grit": 3,
+            "wit": 3
+          },
+          "tags": [
+            "divine_support",
+            "cleric",
+            "preset:cos-survival"
+          ],
+          "role": "divine_support",
+          "char_class": "Cleric",
+          "background": "Criminal",
+          "personality": "sardonic and pragmatic",
+          "goal": "redeem a past failure",
+          "flaw": "too protective of allies"
+        }
+      ],
+      "encounters": [
+        {
+          "id": "mist-choked-road",
+          "title": "Mist-Choked Old Road",
+          "threat": 2,
+          "description": "A choking bank of unnatural fog swallows the road while distant wolves howl from unseen tree lines."
+        },
+        {
+          "id": "abandoned-durst-manor",
+          "title": "Abandoned Manor on the Hill",
+          "threat": 1,
+          "description": "A creaking, lightless manor stands over the village outskirts, its doors slightly ajar as if expecting guests."
+        }
+      ],
+      "flags": {
+        "latest_discovery": "clue_discovered",
+        "srd_summary": {
+          "source_path": "data/srd/srd_5e_2024_merged.json",
+          "version": "2024",
+          "categories": 14,
+          "conditions": 15,
+          "equipment": 179,
+          "backgrounds": 4,
+          "weapon_properties": 10,
+          "mastery_properties": 8,
+          "damage_types": 13
+        },
+        "source_chunks_summary": {
+          "source_chunks_json": "data/sources/curse_of_strahd_chunks.json",
+          "loaded_chunks": 12
+        },
+        "ai_mode": {
+          "policy_actors": true,
+          "ai_actors": true,
+          "ai_director": true,
+          "ai_policy_json": "data/policies/cos_policy.json",
+          "ai_model": "gpt-4o-mini",
+          "ai_api_key_present": true
+        }
+      },
+      "log": [
+        "Turn 1: Sylas uncovers a clue (roll=11)",
+        "Turn 1: Iris finds nothing useful (roll=5)",
+        "Turn 1: Joran uncovers a clue (roll=13)",
+        "Turn 1: Galen finds nothing useful (roll=2)",
+        "Turn 2: Sylas finds nothing useful (roll=3)",
+        "Turn 2: Iris uncovers a clue (roll=18)",
+        "Turn 2: Joran finds nothing useful (roll=4)",
+        "Turn 2: Galen uncovers a clue (roll=12)",
+        "Turn 3: Sylas uncovers a clue (roll=19)",
+        "Turn 3: Iris finds nothing useful (roll=2)",
+        "Turn 3: Joran uncovers a clue (roll=17)",
+        "Turn 3: Galen finds nothing useful (roll=7)",
+        "Turn 4: Sylas finds nothing useful (roll=2)",
+        "Turn 4: Iris finds nothing useful (roll=3)",
+        "Turn 4: Joran uncovers a clue (roll=14)",
+        "Turn 4: Galen uncovers a clue (roll=14)",
+        "Turn 5: Sylas finds nothing useful (roll=3)",
+        "Turn 5: Iris finds nothing useful (roll=8)",
+        "Turn 5: Joran finds nothing useful (roll=3)",
+        "Turn 5: Galen uncovers a clue (roll=18)",
+        "Turn 6: Sylas uncovers a clue (roll=14)",
+        "Turn 6: Iris finds nothing useful (roll=2)",
+        "Turn 6: Joran uncovers a clue (roll=19)",
+        "Turn 6: Galen finds nothing useful (roll=4)",
+        "Turn 7: Sylas finds nothing useful (roll=8)",
+        "Turn 7: Iris uncovers a clue (roll=19)",
+        "Turn 7: Joran finds nothing useful (roll=2)",
+        "Turn 7: Galen uncovers a clue (roll=19)",
+        "Turn 8: Sylas uncovers a clue (roll=19)",
+        "Turn 8: Iris uncovers a clue (roll=13)",
+        "Turn 8: Joran finds nothing useful (roll=2)",
+        "Turn 8: Galen finds nothing useful (roll=8)"
+      ]
+    },
+    "turns": [
+      {
+        "turn_index": 1,
+        "scene_prompt": "As the mists swirl ominously around you, the air grows thick with an unsettling silence, broken only by the distant, mournful howls of wolves. Shadows loom in the fog, and the oppressive weight of dread settles upon your shoulders. Each step forward feels like a descent into the unknown, where every rustle in the bushes could herald danger. You are utterly alone in this cursed land of Barovia, and the chilling realization that something watches you from the darkness sends shivers down your spine.",
+        "intents": [
+          {
+            "actor_name": "Sylas",
+            "action": "investigate",
+            "target": null
+          },
+          {
+            "actor_name": "Iris",
+            "action": "investigate",
+            "target": null
+          },
+          {
+            "actor_name": "Joran",
+            "action": "investigate",
+            "target": null
+          },
+          {
+            "actor_name": "Galen",
+            "action": "investigate",
+            "target": null
+          }
+        ],
+        "outcomes": [
+          {
+            "actor_name": "Sylas",
+            "success": true,
+            "summary": "Sylas uncovers a clue (roll=11)",
+            "hp_delta": {},
+            "flag_updates": {
+              "latest_discovery": "clue_discovered"
+            }
+          },
+          {
+            "actor_name": "Iris",
+            "success": false,
+            "summary": "Iris finds nothing useful (roll=5)",
+            "hp_delta": {},
+            "flag_updates": {}
+          },
+          {
+            "actor_name": "Joran",
+            "success": true,
+            "summary": "Joran uncovers a clue (roll=13)",
+            "hp_delta": {},
+            "flag_updates": {
+              "latest_discovery": "clue_discovered"
+            }
+          },
+          {
+            "actor_name": "Galen",
+            "success": false,
+            "summary": "Galen finds nothing useful (roll=2)",
+            "hp_delta": {},
+            "flag_updates": {}
+          }
+        ]
+      },
+      {
+        "turn_index": 2,
+        "scene_prompt": "As the fog thickens around you, the oppressive silence of Barovia weighs heavily on your hearts. The air is thick with an unsettling chill, and the distant howl of wolves sends shivers down your spine. Ahead, an abandoned manor looms, its dark windows like hollow eyes watching your every move. The door creaks ominously, inviting yet foreboding, as if it holds secrets best left undisturbed. You can feel the dread creeping in, a reminder that escape from this cursed land may not be possible.",
+        "intents": [
+          {
+            "actor_name": "Sylas",
+            "action": "investigate",
+            "target": "abandoned manor"
+          },
+          {
+            "actor_name": "Iris",
+            "action": "investigate",
+            "target": null
+          },
+          {
+            "actor_name": "Joran",
+            "action": "investigate",
+            "target": "abandoned manor"
+          },
+          {
+            "actor_name": "Galen",
+            "action": "investigate",
+            "target": null
+          }
+        ],
+        "outcomes": [
+          {
+            "actor_name": "Sylas",
+            "success": false,
+            "summary": "Sylas finds nothing useful (roll=3)",
+            "hp_delta": {},
+            "flag_updates": {}
+          },
+          {
+            "actor_name": "Iris",
+            "success": true,
+            "summary": "Iris uncovers a clue (roll=18)",
+            "hp_delta": {},
+            "flag_updates": {
+              "latest_discovery": "clue_discovered"
+            }
+          },
+          {
+            "actor_name": "Joran",
+            "success": false,
+            "summary": "Joran finds nothing useful (roll=4)",
+            "hp_delta": {},
+            "flag_updates": {}
+          },
+          {
+            "actor_name": "Galen",
+            "success": true,
+            "summary": "Galen uncovers a clue (roll=12)",
+            "hp_delta": {},
+            "flag_updates": {
+              "latest_discovery": "clue_discovered"
+            }
+          }
+        ]
+      },
+      {
+        "turn_index": 3,
+        "scene_prompt": "As the mist thickens around you, the air grows colder, and the howls of distant wolves echo through the oppressive gloom. Shadows dance just beyond the reach of your lantern light, and an unsettling sense of being watched creeps over you. The road ahead is choked with fog, and every rustle in the underbrush sends shivers down your spine. You feel utterly isolated, as if Barovia itself is conspiring against you.",
+        "intents": [
+          {
+            "actor_name": "Sylas",
+            "action": "investigate",
+            "target": null
+          },
+          {
+            "actor_name": "Iris",
+            "action": "investigate",
+            "target": null
+          },
+          {
+            "actor_name": "Joran",
+            "action": "investigate",
+            "target": null
+          },
+          {
+            "actor_name": "Galen",
+            "action": "investigate",
+            "target": null
+          }
+        ],
+        "outcomes": [
+          {
+            "actor_name": "Sylas",
+            "success": true,
+            "summary": "Sylas uncovers a clue (roll=19)",
+            "hp_delta": {},
+            "flag_updates": {
+              "latest_discovery": "clue_discovered"
+            }
+          },
+          {
+            "actor_name": "Iris",
+            "success": false,
+            "summary": "Iris finds nothing useful (roll=2)",
+            "hp_delta": {},
+            "flag_updates": {}
+          },
+          {
+            "actor_name": "Joran",
+            "success": true,
+            "summary": "Joran uncovers a clue (roll=17)",
+            "hp_delta": {},
+            "flag_updates": {
+              "latest_discovery": "clue_discovered"
+            }
+          },
+          {
+            "actor_name": "Galen",
+            "success": false,
+            "summary": "Galen finds nothing useful (roll=7)",
+            "hp_delta": {},
+            "flag_updates": {}
+          }
+        ]
+      },
+      {
+        "turn_index": 4,
+        "scene_prompt": "As the mist thickens around you, the oppressive air of Barovia weighs heavily on your hearts. The abandoned manor looms ahead, its windows dark and hollow, like the eyes of a predator watching your every move. Shadows dance in the corners of your vision, and an unsettling silence fills the air, broken only by the distant howl of a wolf. You feel the chill of isolation creeping in, and the sense that something sinister lies within the manor's walls. Will you dare to enter?",
+        "intents": [
+          {
+            "actor_name": "Sylas",
+            "action": "investigate",
+            "target": "abandoned manor"
+          },
+          {
+            "actor_name": "Iris",
+            "action": "investigate",
+            "target": null
+          },
+          {
+            "actor_name": "Joran",
+            "action": "investigate",
+            "target": null
+          },
+          {
+            "actor_name": "Galen",
+            "action": "investigate",
+            "target": null
+          }
+        ],
+        "outcomes": [
+          {
+            "actor_name": "Sylas",
+            "success": false,
+            "summary": "Sylas finds nothing useful (roll=2)",
+            "hp_delta": {},
+            "flag_updates": {}
+          },
+          {
+            "actor_name": "Iris",
+            "success": false,
+            "summary": "Iris finds nothing useful (roll=3)",
+            "hp_delta": {},
+            "flag_updates": {}
+          },
+          {
+            "actor_name": "Joran",
+            "success": true,
+            "summary": "Joran uncovers a clue (roll=14)",
+            "hp_delta": {},
+            "flag_updates": {
+              "latest_discovery": "clue_discovered"
+            }
+          },
+          {
+            "actor_name": "Galen",
+            "success": true,
+            "summary": "Galen uncovers a clue (roll=14)",
+            "hp_delta": {},
+            "flag_updates": {
+              "latest_discovery": "clue_discovered"
+            }
+          }
+        ]
+      },
+      {
+        "turn_index": 5,
+        "scene_prompt": "The mist clings to the ground like a living shroud, muffling your footsteps as you traverse the old road in Barovia. The air is thick with an oppressive silence, broken only by the distant howls of wolves echoing through the trees. Shadows dance just beyond the reach of your flickering lantern, and a sense of dread settles in your bones, whispering that you are not alone in this cursed land.",
+        "intents": [
+          {
+            "actor_name": "Sylas",
+            "action": "investigate",
+            "target": null
+          },
+          {
+            "actor_name": "Iris",
+            "action": "investigate",
+            "target": null
+          },
+          {
+            "actor_name": "Joran",
+            "action": "investigate",
+            "target": null
+          },
+          {
+            "actor_name": "Galen",
+            "action": "investigate",
+            "target": null
+          }
+        ],
+        "outcomes": [
+          {
+            "actor_name": "Sylas",
+            "success": false,
+            "summary": "Sylas finds nothing useful (roll=3)",
+            "hp_delta": {},
+            "flag_updates": {}
+          },
+          {
+            "actor_name": "Iris",
+            "success": false,
+            "summary": "Iris finds nothing useful (roll=8)",
+            "hp_delta": {},
+            "flag_updates": {}
+          },
+          {
+            "actor_name": "Joran",
+            "success": false,
+            "summary": "Joran finds nothing useful (roll=3)",
+            "hp_delta": {},
+            "flag_updates": {}
+          },
+          {
+            "actor_name": "Galen",
+            "success": true,
+            "summary": "Galen uncovers a clue (roll=18)",
+            "hp_delta": {},
+            "flag_updates": {
+              "latest_discovery": "clue_discovered"
+            }
+          }
+        ]
+      },
+      {
+        "turn_index": 6,
+        "scene_prompt": "As the sun sinks beneath the jagged peaks of Barovia, a thick fog rolls in, shrouding the abandoned manor on the hill. The air is heavy with an unsettling silence, broken only by the distant howl of wolves. Shadows dance along the walls, and the door creaks ominously, slightly ajar as if inviting you into its dark embrace. A chill runs down your spine, and the weight of isolation presses upon you, each heartbeat echoing the dread that fills this cursed land.",
+        "intents": [
+          {
+            "actor_name": "Sylas",
+            "action": "investigate",
+            "target": null
+          },
+          {
+            "actor_name": "Iris",
+            "action": "investigate",
+            "target": null
+          },
+          {
+            "actor_name": "Joran",
+            "action": "investigate",
+            "target": null
+          },
+          {
+            "actor_name": "Galen",
+            "action": "investigate",
+            "target": null
+          }
+        ],
+        "outcomes": [
+          {
+            "actor_name": "Sylas",
+            "success": true,
+            "summary": "Sylas uncovers a clue (roll=14)",
+            "hp_delta": {},
+            "flag_updates": {
+              "latest_discovery": "clue_discovered"
+            }
+          },
+          {
+            "actor_name": "Iris",
+            "success": false,
+            "summary": "Iris finds nothing useful (roll=2)",
+            "hp_delta": {},
+            "flag_updates": {}
+          },
+          {
+            "actor_name": "Joran",
+            "success": true,
+            "summary": "Joran uncovers a clue (roll=19)",
+            "hp_delta": {},
+            "flag_updates": {
+              "latest_discovery": "clue_discovered"
+            }
+          },
+          {
+            "actor_name": "Galen",
+            "success": false,
+            "summary": "Galen finds nothing useful (roll=4)",
+            "hp_delta": {},
+            "flag_updates": {}
+          }
+        ]
+      },
+      {
+        "turn_index": 7,
+        "scene_prompt": "As you traverse the mist-choked old road, the air thickens with an unnatural chill. Shadows twist and writhe in the fog, while distant howls echo ominously from the darkened tree line. A sense of dread settles over you, each step weighed down by the oppressive silence that envelops Barovia. You feel utterly alone, the oppressive atmosphere tightening around you like a noose, as if unseen eyes are watching your every move.",
+        "intents": [
+          {
+            "actor_name": "Sylas",
+            "action": "investigate",
+            "target": null
+          },
+          {
+            "actor_name": "Iris",
+            "action": "investigate",
+            "target": null
+          },
+          {
+            "actor_name": "Joran",
+            "action": "investigate",
+            "target": null
+          },
+          {
+            "actor_name": "Galen",
+            "action": "investigate",
+            "target": null
+          }
+        ],
+        "outcomes": [
+          {
+            "actor_name": "Sylas",
+            "success": false,
+            "summary": "Sylas finds nothing useful (roll=8)",
+            "hp_delta": {},
+            "flag_updates": {}
+          },
+          {
+            "actor_name": "Iris",
+            "success": true,
+            "summary": "Iris uncovers a clue (roll=19)",
+            "hp_delta": {},
+            "flag_updates": {
+              "latest_discovery": "clue_discovered"
+            }
+          },
+          {
+            "actor_name": "Joran",
+            "success": false,
+            "summary": "Joran finds nothing useful (roll=2)",
+            "hp_delta": {},
+            "flag_updates": {}
+          },
+          {
+            "actor_name": "Galen",
+            "success": true,
+            "summary": "Galen uncovers a clue (roll=19)",
+            "hp_delta": {},
+            "flag_updates": {
+              "latest_discovery": "clue_discovered"
+            }
+          }
+        ]
+      },
+      {
+        "turn_index": 8,
+        "scene_prompt": "The mists swirl thickly around you, shrouding the decrepit manor on the hill in a veil of dread. Shadows dance along the walls, and the air is heavy with an unshakable sense of foreboding. The doors creak open slightly, beckoning you into the darkness, where secrets and horrors lie in wait. Every step feels like an intrusion, a trespass into a realm that wishes to remain undisturbed. The silence is punctuated only by the distant howl of the wind, as if the very land mourns the lost souls trapped in its grasp.",
+        "intents": [
+          {
+            "actor_name": "Sylas",
+            "action": "investigate",
+            "target": null
+          },
+          {
+            "actor_name": "Iris",
+            "action": "investigate",
+            "target": null
+          },
+          {
+            "actor_name": "Joran",
+            "action": "investigate",
+            "target": null
+          },
+          {
+            "actor_name": "Galen",
+            "action": "investigate",
+            "target": null
+          }
+        ],
+        "outcomes": [
+          {
+            "actor_name": "Sylas",
+            "success": true,
+            "summary": "Sylas uncovers a clue (roll=19)",
+            "hp_delta": {},
+            "flag_updates": {
+              "latest_discovery": "clue_discovered"
+            }
+          },
+          {
+            "actor_name": "Iris",
+            "success": true,
+            "summary": "Iris uncovers a clue (roll=13)",
+            "hp_delta": {},
+            "flag_updates": {
+              "latest_discovery": "clue_discovered"
+            }
+          },
+          {
+            "actor_name": "Joran",
+            "success": false,
+            "summary": "Joran finds nothing useful (roll=2)",
+            "hp_delta": {},
+            "flag_updates": {}
+          },
+          {
+            "actor_name": "Galen",
+            "success": false,
+            "summary": "Galen finds nothing useful (roll=8)",
+            "hp_delta": {},
+            "flag_updates": {}
+          }
+        ]
+      }
+    ]
+  }
+}

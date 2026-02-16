@@ -1,0 +1,107 @@
+{
+  "default": {
+    "aggression": 0.5,
+    "caution": 0.5,
+    "exploration": 0.6,
+    "priorities": {
+      "investigate": 0.5,
+      "attack": 0.3,
+      "defend": 0.2
+    },
+    "tie_breaker": [
+      "investigate",
+      "attack",
+      "defend",
+      "negotiate",
+      "rest"
+    ]
+  },
+  "characters": {
+    "Sylas": {
+      "aggression": 0.5,
+      "caution": 0.5,
+      "exploration": 0.8,
+      "priorities": {
+        "investigate": 0.9,
+        "rest": 0.2
+      },
+      "tie_breaker": [
+        "attack",
+        "investigate",
+        "defend",
+        "negotiate",
+        "rest"
+      ],
+      "notes": {
+        "goal": "uncover the true history of Castle Ravenloft",
+        "flaw": "trusts too slowly",
+        "background": "Acolyte"
+      }
+    },
+    "Iris": {
+      "aggression": 0.8,
+      "caution": 0.5,
+      "exploration": 0.5,
+      "priorities": {
+        "attack": 1.0,
+        "exploit-mastery": 0.8,
+        "rest": 0.2
+      },
+      "tie_breaker": [
+        "attack",
+        "investigate",
+        "defend",
+        "negotiate",
+        "rest"
+      ],
+      "notes": {
+        "goal": "protect innocents trapped in the valley",
+        "flaw": "acts before planning",
+        "background": "Criminal"
+      }
+    },
+    "Joran": {
+      "aggression": 0.8,
+      "caution": 0.5,
+      "exploration": 0.5,
+      "priorities": {
+        "attack": 1.0,
+        "exploit-mastery": 0.8,
+        "rest": 0.2
+      },
+      "tie_breaker": [
+        "attack",
+        "investigate",
+        "defend",
+        "negotiate",
+        "rest"
+      ],
+      "notes": {
+        "goal": "recover a lost family relic",
+        "flaw": "too protective of allies",
+        "background": "Sage"
+      }
+    },
+    "Galen": {
+      "aggression": 0.5,
+      "caution": 0.5,
+      "exploration": 0.8,
+      "priorities": {
+        "investigate": 0.9,
+        "rest": 0.2
+      },
+      "tie_breaker": [
+        "attack",
+        "investigate",
+        "defend",
+        "negotiate",
+        "rest"
+      ],
+      "notes": {
+        "goal": "redeem a past failure",
+        "flaw": "too protective of allies",
+        "background": "Criminal"
+      }
+    }
+  }
+}

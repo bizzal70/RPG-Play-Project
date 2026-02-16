@@ -1,0 +1,1 @@
+"""RPG simulation framework package."""
